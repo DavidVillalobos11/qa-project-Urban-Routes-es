@@ -3,10 +3,10 @@ import data
 import configuration
 
 
-def post_new_user():
+def post_new_user(body):
     return requests.post(
         configuration.BASE_URL + configuration.CREATE_USER_PATH,
-        json=data.user_body,
+        json=body,
         headers=data.headers
     )
 
