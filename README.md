@@ -23,15 +23,17 @@ Selección de extras (manta y pañuelos)
 Selección de 2 helados
 Solicitud de taxi
 Espera de asignación de conductor (opcional)
+
 ▶️ Instrucciones para ejecutar las pruebas
 Clonar el repositorio:
-git clone git@github.com:TU_USUARIO/qa-project-Urban-Routes-es.git
+git clone git@github.com:DavidVillalobos11/qa-project-Urban-Routes-es.git
 Navegar al proyecto:
 cd qa-project-Urban-Routes-es
 Instalar dependencias (si es necesario):
 pip install selenium
 Ejecutar las pruebas:
 python main.py
+
 📂 Estructura del proyecto
 main.py → Contiene las pruebas automatizadas
 helpers.py → Función para obtener código de verificación
