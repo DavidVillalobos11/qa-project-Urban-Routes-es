@@ -36,7 +36,6 @@ class UrbanRoutesPage:
         code_input = self.driver.find_element(By.ID, "code")
         code_input.send_keys(code)
 
-        # 🔥 CLAVE
         code_input.send_keys(Keys.TAB)
 
         self.driver.find_element(By.XPATH, "//button[text()='Link']").click()
@@ -80,7 +79,7 @@ class TestUrbanRoutes:
         page.add_ice_creams(2)
         page.order_taxi()
 
-        # 🔥 opcional pero recomendado
+    
         page.wait_driver()
 
 
