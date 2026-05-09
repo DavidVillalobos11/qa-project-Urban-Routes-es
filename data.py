@@ -1,4 +1,4 @@
-BASE_URL = "https://cnt-96b731b2-fc0b-4231-974f-c4ed34ea5c06.containerhub.tripleten-services.com?lng=es"
+BASE_URL = "https://cnt-fe5fc514-9eac-46d4-9b6c-af055f538c4b.containerhub.tripleten-services.com?lng=es"
 
 user_body = {
     "firstName": "David",
